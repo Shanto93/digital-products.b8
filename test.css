@@ -2,26 +2,28 @@
     margin: 0px;
     padding: 0px;
 }
-/* .click{
+.click{
     color: blue;
-    cursor: url(sad_emoji.png),auto;
-    background-color: aquamarine; */
-/* } */
+    cursor:url("https://www.cambridge.org/elt/blog/wp-content/uploads/2019/07/Sad-Face-Emoji.png"),auto;
+    background-color: aquamarine;
+}
 .container{
     display: flex;
-    justify-content: center
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 .box1{
     background-color: rgb(255, 0, 64);
-    width: 150px;
+    width: 100px;
     padding: 20px;
 }
 .box2{
     background-color: blue;
-    width: 150px;
+    width: 100px;
     padding: 20px;
 }.box3{
     background-color: blueviolet;
-    width: 150px;
+    width: 100px;
     padding: 20px;
 }

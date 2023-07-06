@@ -1,0 +1,33 @@
+.banner-img{
+    width: 300px;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(background.avif),
+    linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    color: white;
+    align-items: center;
+    height: 100vh; 
+}
+
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.btn:hover{
+    color: chartreuse;
+    cursor: pointer;
+}
