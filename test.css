@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.click{
+    color: blue;
+    cursor: url(sad_emoji.png),auto;
+    background-color: aquamarine;
+}
