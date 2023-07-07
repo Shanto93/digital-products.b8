@@ -1,0 +1,40 @@
+.dead-img{
+    width: 70px;
+    
+}
+
+.box{
+    background-color: rgb(5, 5, 5);
+    width: 230px;
+    color: white;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    padding: 15px;
+    text-align: center;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(44, 37, 37);
+    height: 100vh;
+}
+.common{
+    font-size: 14px;
+}
+
+.box-title{
+    padding: 10px;
+}
+.btnl{
+    margin-top: 15px;
+    background-color: rgba(57, 57, 63, 0.826);
+}
+.service{
+    align-items: center;
+    background-color: rgb(44, 37, 37);
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    padding: 20px;
+}
